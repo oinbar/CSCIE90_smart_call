@@ -41,7 +41,7 @@ rm $PROJECT_HOME/cronfile
 
 # start services
 # ipython notebook
-ipython notebook --ip=0.0.0.0 &
+#ipython notebook --ip=0.0.0.0 &
 # apache/phpmyadmin
 #service apache2 restart >> $PROJECT_HOME/log/$TIMESTAMP/apache.log 2>&1 &
 

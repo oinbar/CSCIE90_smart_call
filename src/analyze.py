@@ -10,7 +10,7 @@ from src import html_from_transcript
 from dateutil.parser import parse
 
 
-email_file = utils.get_project_root() + "/credentials/email_account.json"
+email_file = utils.get_project_root() + "/src/credentials/email_account.json"
 email_account = json.loads(open(email_file).read())
 
 

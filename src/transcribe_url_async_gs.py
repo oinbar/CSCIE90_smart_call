@@ -15,7 +15,7 @@ from scipy.io.wavfile import read
 from scipy.io.wavfile import write
 
 # "https://cloud.google.com/speech/docs/getting-started"
-key_file = utils.get_project_root() + "/credentials/google_cloud_key.json"
+key_file = utils.get_project_root() + "/src/credentials/google_cloud_key.json"
 key_obj = json.loads(open(key_file).read())
 proj_id = key_obj["project_id"]
 

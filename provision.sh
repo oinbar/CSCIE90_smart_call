@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # THIS ALL ASSUMES PYTHON 2.7.6
 # IF UBUNTU 14.04 decides to ship a different python might need to work around that.
@@ -48,6 +48,7 @@ sudo pip install boto
 sudo pip install flask
 sudo pip install twilio
 sudo pip install gcloud
+sudo pip install requests
 sudo pip install oauth2client
 sudo pip install google-api-python-client
 sudo pip install gcs-oauth2-boto-plugin
