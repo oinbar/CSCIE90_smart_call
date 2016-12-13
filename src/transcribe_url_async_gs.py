@@ -17,7 +17,7 @@ from scipy.io.wavfile import write
 # "https://cloud.google.com/speech/docs/getting-started"
 key_file = utils.get_project_root() + "/src/credentials/google_cloud_key.json"
 key_obj = json.loads(open(key_file).read())
-proj_id = key_obj["project_id"]
+proj_id = str(key_obj["project_id"])
 
 
 def copy_file_to_google_storage_and_delete(f):
@@ -25,7 +25,7 @@ def copy_file_to_google_storage_and_delete(f):
         "sudo gsutil cp %s gs://%s.appspot.com/" % (f, proj_id),
         shell=True)
     os.remove(f)
-    return "gs://" + str(proj_id) + " s.appspot.com/" + os.path.basename(f)
+    return "gs://" + str(proj_id) + "s.appspot.com/" + os.path.basename(f)
 
 def generate_speech_api_request_json(uri):
     request_json = {
