@@ -1,0 +1,305 @@
+{
+	"timestamp": "2016-10-29T15:58:52.778302",
+	"recording_url": "https://api.twilio.com/2010-04-01/Accounts/ACc75f78bc9cbc7cbc1343ee48d58a3224/Recordings/REb16b46090f0d2be52ab11bdf1e38f0d4",
+	"results": {
+		"channel1": [{
+			"transcription": {
+				"response": {
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeResponse",
+					"results": [{
+						"alternatives": [{
+							"confidence": 0.83758235,
+							"transcript": "What's up?"
+						}]
+					}]
+				},
+				"done": true,
+				"name": "787874705787736360",
+				"metadata": {
+					"lastUpdateTime": "2016-10-30T04:50:14.581630Z",
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeMetadata",
+					"startTime": "2016-10-30T04:50:11.360150Z",
+					"progressPercent": 100
+				}
+			},
+			"time_offset": [4.08875, 6.363625]
+		}, {
+			"transcription": {
+				"response": {
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeResponse",
+					"results": [{
+						"alternatives": [{
+							"confidence": 0.65515816,
+							"transcript": "Okay, good for you."
+						}]
+					}]
+				},
+				"done": true,
+				"name": "2656329253647523101",
+				"metadata": {
+					"lastUpdateTime": "2016-10-30T04:50:16.618580Z",
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeMetadata",
+					"startTime": "2016-10-30T04:50:13.229627Z",
+					"progressPercent": 100
+				}
+			},
+			"time_offset": [8.55525, 11.392875]
+		}, {
+			"transcription": {
+				"response": {
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeResponse",
+					"results": [{
+						"alternatives": [{
+							"confidence": 0.57464,
+							"transcript": "Hey."
+						}]
+					}]
+				},
+				"done": true,
+				"name": "787874705787739799",
+				"metadata": {
+					"lastUpdateTime": "2016-10-30T04:50:12.247393Z",
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeMetadata",
+					"startTime": "2016-10-30T04:50:09.267865Z",
+					"progressPercent": 100
+				}
+			},
+			"time_offset": [0.0, 2.104875]
+		}, {
+			"transcription": {
+				"response": {
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeResponse",
+					"results": [{
+						"alternatives": [{
+							"confidence": 0.83585894,
+							"transcript": "Yeah."
+						}]
+					}]
+				},
+				"done": true,
+				"name": "5273884560203480066",
+				"metadata": {
+					"lastUpdateTime": "2016-10-30T04:50:24.712764Z",
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeMetadata",
+					"startTime": "2016-10-30T04:50:22.007377Z",
+					"progressPercent": 100
+				}
+			},
+			"time_offset": [21.990875, 24.027875]
+		}, {
+			"transcription": {
+				"response": {
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeResponse",
+					"results": [{
+						"alternatives": [{
+							"confidence": 0.6814093,
+							"transcript": "so fine"
+						}]
+					}]
+				},
+				"done": true,
+				"name": "1323949151354607621",
+				"metadata": {
+					"lastUpdateTime": "2016-10-30T04:50:19.854989Z",
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeMetadata",
+					"startTime": "2016-10-30T04:50:17.050129Z",
+					"progressPercent": 100
+				}
+			},
+			"time_offset": [15.28125, 17.591875]
+		}, {
+			"transcription": {
+				"response": {
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeResponse",
+					"results": [{
+						"alternatives": [{
+							"confidence": 0.69877881,
+							"transcript": "Like I got them incorrectly yeah."
+						}]
+					}]
+				},
+				"done": true,
+				"name": "1953472957527962507",
+				"metadata": {
+					"lastUpdateTime": "2016-10-30T04:50:25.148140Z",
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeMetadata",
+					"startTime": "2016-10-30T04:50:20.418794Z",
+					"progressPercent": 100
+				}
+			},
+			"time_offset": [17.6055, 21.798]
+		}, {
+			"transcription": {
+				"response": {
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeResponse",
+					"results": [{
+						"alternatives": [{
+							"confidence": 0.68682492,
+							"transcript": "it's like"
+						}]
+					}]
+				},
+				"done": true,
+				"name": "1953472957527963310",
+				"metadata": {
+					"lastUpdateTime": "2016-10-30T04:50:25.968746Z",
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeMetadata",
+					"startTime": "2016-10-30T04:50:23.548774Z",
+					"progressPercent": 100
+				}
+			},
+			"time_offset": [23.550875, 25.525]
+		}, {
+			"transcription": {
+				"response": {
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeResponse",
+					"results": [{
+						"alternatives": [{
+							"confidence": 0.69848889,
+							"transcript": "Good for you, baby. I've failed 7 out of a"
+						}]
+					}]
+				},
+				"done": true,
+				"name": "2364881540121626570",
+				"metadata": {
+					"lastUpdateTime": "2016-10-30T04:50:20.110123Z",
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeMetadata",
+					"startTime": "2016-10-30T04:50:15.184224Z",
+					"progressPercent": 100
+				}
+			},
+			"time_offset": [10.6405, 14.975]
+		}, {
+			"transcription": {
+				"response": {
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeResponse",
+					"results": [{
+						"alternatives": [{
+							"confidence": 0.53175318,
+							"transcript": "haha"
+						}]
+					}]
+				},
+				"done": true,
+				"name": "8925291623246533871",
+				"metadata": {
+					"lastUpdateTime": "2016-10-30T04:50:27.629634Z",
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeMetadata",
+					"startTime": "2016-10-30T04:50:25.122362Z",
+					"progressPercent": 100
+				}
+			},
+			"time_offset": [24.60575, 26.669]
+		}, {
+			"transcription": {
+				"response": {
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeResponse"
+				},
+				"done": true,
+				"name": "8925291623246532634",
+				"metadata": {
+					"lastUpdateTime": "2016-10-30T04:50:29.260067Z",
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeMetadata",
+					"startTime": "2016-10-30T04:50:26.452435Z",
+					"progressPercent": 100
+				}
+			},
+			"time_offset": [26.122125, 28.501]
+		}],
+		"channel0": [{
+			"transcription": {
+				"response": {
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeResponse",
+					"results": [{
+						"alternatives": [{
+							"confidence": 0.83183426,
+							"transcript": "Hey, what's up testing?"
+						}]
+					}]
+				},
+				"done": true,
+				"name": "3187094835089248280",
+				"metadata": {
+					"lastUpdateTime": "2016-10-30T04:50:03.539403Z",
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeMetadata",
+					"startTime": "2016-10-30T04:50:00.455013Z",
+					"progressPercent": 100
+				}
+			},
+			"time_offset": [1.165375, 3.46975]
+		}, {
+			"transcription": {
+				"response": {
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeResponse"
+				},
+				"done": true,
+				"name": "2656329253647523198",
+				"metadata": {
+					"lastUpdateTime": "2016-10-30T04:50:09.113318Z",
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeMetadata",
+					"startTime": "2016-10-30T04:50:06.549155Z",
+					"progressPercent": 100
+				}
+			},
+			"time_offset": [27.30075, 29.342875]
+		}, {
+			"transcription": {
+				"response": {
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeResponse",
+					"results": [{
+						"alternatives": [{
+							"confidence": 0.62923795,
+							"transcript": "I'm testing."
+						}]
+					}]
+				},
+				"done": true,
+				"name": "2240419248479951724",
+				"metadata": {
+					"lastUpdateTime": "2016-10-30T04:50:04.151169Z",
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeMetadata",
+					"startTime": "2016-10-30T04:50:02.091254Z",
+					"progressPercent": 100
+				}
+			},
+			"time_offset": [7.198375, 8.61525]
+		}, {
+			"transcription": {
+				"response": {
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeResponse",
+					"results": [{
+						"alternatives": [{
+							"confidence": 0.83758235,
+							"transcript": "you failed"
+						}]
+					}]
+				},
+				"done": true,
+				"name": "935826693803660249",
+				"metadata": {
+					"lastUpdateTime": "2016-10-30T04:50:07.912290Z",
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeMetadata",
+					"startTime": "2016-10-30T04:50:05.118841Z",
+					"progressPercent": 100
+				}
+			},
+			"time_offset": [16.713875, 18.936875]
+		}, {
+			"transcription": {
+				"response": {
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeResponse"
+				},
+				"done": true,
+				"name": "3187094835089249697",
+				"metadata": {
+					"lastUpdateTime": "2016-10-30T04:50:06.228582Z",
+					"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeMetadata",
+					"startTime": "2016-10-30T04:50:03.706157Z",
+					"progressPercent": 100
+				}
+			},
+			"time_offset": [8.520625, 10.548125]
+		}]
+	}
+}

@@ -1,0 +1,48 @@
+{
+	"timestamp": "2016-10-30T10:58:43.252277",
+	"recording_url": "https://api.twilio.com/2010-04-01/Accounts/ACc75f78bc9cbc7cbc1343ee48d58a3224/Recordings/RE293f777e19f3eaada78c1d8e1e8306c4",
+	"transcript": {
+		"recording_url": "https://api.twilio.com/2010-04-01/Accounts/ACc75f78bc9cbc7cbc1343ee48d58a3224/Recordings/RE293f777e19f3eaada78c1d8e1e8306c4",
+		"results": {
+			"channel1": [{
+				"transcription": {
+					"response": {
+						"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeResponse",
+						"results": [{
+							"alternatives": [{
+								"confidence": 0.67722386,
+								"transcript": "Hi, this is or. I am."
+							}]
+						}]
+					},
+					"done": true,
+					"name": "4962391562413646699",
+					"metadata": {
+						"lastUpdateTime": "2016-10-30T14:59:09.370228Z",
+						"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeMetadata",
+						"startTime": "2016-10-30T14:59:06.672704Z",
+						"progressPercent": 100
+					}
+				},
+				"time_offset": [0.874, 2.943]
+			}],
+			"channel0": [{
+				"transcription": {
+					"response": {
+						"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeResponse"
+					},
+					"done": true,
+					"name": "5655345906145310585",
+					"metadata": {
+						"lastUpdateTime": "2016-10-30T14:59:07.134306Z",
+						"@type": "type.googleapis.com/google.cloud.speech.v1beta1.AsyncRecognizeMetadata",
+						"startTime": "2016-10-30T14:59:05.087165Z",
+						"progressPercent": 100
+					}
+				},
+				"time_offset": [4.06725, 5.375875]
+			}]
+		}
+	},
+	"from": "+16176863093"
+}
