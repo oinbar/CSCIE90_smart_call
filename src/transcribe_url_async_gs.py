@@ -25,7 +25,7 @@ def copy_file_to_google_storage_and_delete(f):
         "sudo gsutil cp %s gs://%s.appspot.com/" % (f, proj_id),
         shell=True)
     os.remove(f)
-    return "gs://%s.appspot.com/" + os.path.basename(f) % proj_id
+    return "gs://" + str(proj_id) + " s.appspot.com/" + os.path.basename(f)
 
 def generate_speech_api_request_json(uri):
     request_json = {

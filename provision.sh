@@ -59,7 +59,7 @@ mkdir data
 mkdir data/raw
 mkdir data/transcribed
 mkdir data/tmp
-sudo chmod -R 775 data
+sudo chmod -R 777 data
 
 # set timezone
 # sudo timedatectl set-timezone America/New_York
